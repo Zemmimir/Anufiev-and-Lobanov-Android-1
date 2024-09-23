@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#46547B"
+    tools:context=".MainActivity4">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snow"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3D "
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="103dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#DD0000"
+        android:backgroundTintMode="add"
+        android:text="Options"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="82dp"
+        android:layout_height="29dp"
+        android:text="Rain"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grass"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="73dp"
+        android:layout_height="23dp"
+        android:text="Weather"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="82dp"
+        android:layout_height="24dp"
+        android:backgroundTint="#000000"
+        android:text="Graphics"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shaders"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shadows"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
